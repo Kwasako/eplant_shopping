@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgrey; /*#27292c */
+    color: black;
+    text-align: center;
+}
+h1 {
+    margin-top: 40px;
+}
+
+/* landing page section */
+
+.landing-page{
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');
+  background-size: cover;
+  color: aliceblue;
+  font-weight: bold;
+  display: flex;
+  gap: 100px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.aboutUs, .moto{
+  margin-top: 40px;
+}
+.aboutUs{
+  width: 60%;
+}
+
+.custom-line {
+    width: 30%;
+    height: 2px;
+    background-color: #4CAF50; /* Line color */
+    border: none; /* Removes the default border */
+    margin: 20px auto; /* Centers the line with vertical margin */
+
+}
+
+.btn-get-started{
+  background-color: #4CAF50;
+  padding: 7px 12px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* header */
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #4CAF50;
+}
+
+div.cart-img img{
+  width: 100px;
+  height: 100%;
+}
+
+/* ProductList.css */
+
+
+.container{
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after{
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+div.plant img {
+  width: 100px;
+  height: 100%;
+}
+div.box{
+  text-align: center;
+  margin: 24px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px;
+  background: white;
+}
+
+.name{
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.price{
+  color: red;
+}
+.price_cart{
+  color: black;
+}
+
+div.box p{
+  color: #27292c;
+}
+.add-to-cart{
+  margin-top: 10px;
+}
+
+.add-to-cart-btn{
+  background: gray;
+  color: bisque;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+
+.header{
+  margin-top: 40px;
+  text-align: center;
+}
+
+div.header hr{
+  width: 30%;
+  height: 2px;
+  background-color: #4CAF50; /* Line color */
+  border: none; /* Removes the default border */
+  margin: 0px auto; /* Centers the line with vertical margin */
+  padding: 0px;
+}
+
+div.header h1{
+  padding: 0px;
+  margin: 0px;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.quantity-section{
+  margin-top: 0px;
+  padding: 8px;
+}
+
+div.quantity-section button{
+  padding: 3px;
+}
+
+.delete-btn{
+  background-color: red;
+  padding: 8px;
+  border: none;
+  border-radius: 7px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.clear-btn{
+  padding: 10px 28px;
+  background: red;
+  border: none;
+  border-radius: 7px;
+  margin-left: 100px;
+  font-size: 24px;
+}
