@@ -3,6 +3,8 @@ body {
     background: lightgrey; /*#27292c */
     color: black;
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 h1 {
     margin-top: 40px;
